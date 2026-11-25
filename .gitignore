@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Databricks Asset Bundles & local artifacts
+.databricks/
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Local test / downloaded sample data cache
+data_cache/
+tmp_test_output/
+mlruns/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
